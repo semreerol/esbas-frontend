@@ -1,0 +1,167 @@
+/* Ana konteynerin tam genişlikte olmasını sağlar */
+
+.container {
+  width: 10%;
+  min-height: 100vh;
+  /* Sayfanın tamamını kaplamasını sağlar */
+  display: flex;
+  flex-direction: column;
+  background-color: #e21717;
+  /* Arka plan rengi */
+}
+
+/* Headerın genişliğini ayarlar ve ortalar */
+
+.header {
+  width: 100%;
+  /* Tüm genişliği kapsar */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* Logo ve arama çubuğu arasında boşluk bırakır */
+  background-color: #e3eaeb;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  /* Logonun yüksekliği */
+  width: auto;
+  /* Genişliği otomatik olarak ayarla */
+}
+
+/* Arama çubuğu ve butonun hizalanmasını sağlar */
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  /* Sağ tarafa yaslar */
+}
+
+.search-bar {
+  padding: 5px;
+  font-size: 16px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.search-bar,.new-event-button {
+  flex:10px;
+}
+
+.new-event-button {
+  padding: 6px 12px;
+  font-size: 16px;
+  background-color: #ff1818;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.new-event-button:hover {
+  background-color: #ff1818;
+}
+
+/* Ana içeriğin üstten boşluk bırakmasını sağlar */
+
+.App {
+  padding: 20px;
+  flex: 1;
+  display: table;
+  min-height: 100vh;
+
+  visibility: visible;
+  overflow-y: auto;
+  /* Dikey kaydırma */
+  max-height: calc(100vh - 100px);
+  /* Header yüksekliği kadar eksiltildi */
+  background-color: #fff;
+  /* İçeriğin arka plan rengi */
+  border: 1px solid #ddd;
+  /* Kenarlık */
+  border-radius: 10px;
+  margin: 20px auto;
+  /* Ortaya hizalar */
+  margin-left:-2rem;
+  margin-top: 35px;
+  margin-bottom: -30rem;
+  width: 120%;
+  /* Sayfanın genişliğine göre ayarlanabilir */
+}
+
+/* Tablo stilini ayarlar */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Butonlar için stil ayarları */
+
+.katilimci-butonu,
+.baslat-butonu {
+  padding: 6px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.katilimci-butonu {
+  background-color: #52c41a;
+  color: white;
+  border: none;
+}
+
+.baslat-butonu {
+  background-color: #1890ff;
+  color: white;
+  border: none;
+}
+
+.katilimci-butonu:hover,
+.baslat-butonu:hover {
+  opacity: 0.8;
+}
+
+.katilimci-butonu,
+.baslat-butonu {
+    border: none;
+    color: white;
+    padding: 10px 15px; /* Butonun iç boşluğunu ayarlar */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 0; /* Margin sıfırlanır, kaymayı önler */
+    cursor: pointer;
+    border-radius: 4px; /* Butonlara yuvarlak köşe ekler */
+    width: 100%; /* Butonların tablo hücresine tam oturmasını sağlar */
+    max-width: 120px; /* Butonların maksimum genişliğini belirler */
+}
+
+.update-button {
+  background-color:#f8f8f8;
+  color: green;
+  margin-left: 10px;
+}
+
+.delete-button {
+  background-color:#f8f8f8;
+  color: red;
+  margin-left: 10px;
+}

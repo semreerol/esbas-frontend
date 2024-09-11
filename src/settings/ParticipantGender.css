@@ -1,0 +1,99 @@
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: flex-start;
+    /* Sol tarafa hizalar */
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .logo {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gender-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .gender-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    /* Kenarlık eklendi */
+    border-radius: 4px;
+    /* Köşeleri yuvarlatmak için */
+    margin-bottom: 10px;
+    /* Her bir öğe arasına boşluk eklemek için */
+  }
+  
+  .gender-item span {
+    flex: 1;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 1.2em;
+    width: auto;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .input-field {
+    flex: 4;
+    /* Daha büyük yapmak için flex değeri artırıldı */
+    padding: 12px;
+    /* Biraz daha fazla padding eklendi */
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-button {
+    flex: 1;
+    /* Daha küçük yapmak için flex değeri azaltıldı */
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+  
+  .save-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    margin-top: 20px;
+  }

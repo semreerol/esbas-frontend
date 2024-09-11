@@ -1,0 +1,75 @@
+.CardReader {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.card-reader {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center; /* İçeriği ortalar */
+}
+
+.card-reader h1,
+.card-reader p {
+  margin: 10px 0;
+}
+
+.card-input {
+  width: 100%;
+  padding: 8px;
+  margin: 15px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between; /* Butonları yatayda dengeli yerleştirir */
+  gap: 10px; /* Butonlar arasına mesafe koyar */
+}
+
+.buttons-details {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  flex: 1; /* Butonların eşit genişlikte olmasını sağlar */
+  text-align: center; /* Buton yazılarını ortalar */
+}
+
+.end-event:hover {
+  background-color: darkred;
+}
+
+.manual-entry:hover {
+  background-color: #4d15bc;
+}

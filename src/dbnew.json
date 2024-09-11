@@ -1,0 +1,189 @@
+{
+  "Users": [
+    {
+      "ID": 1,
+      "UserID": "0005666260",
+      "FullName": "Cengizhan Kaya",
+      "Department": "IT",
+      "IsOfficeEmployee": "1",
+      "Gender": "Male",
+      "D_ID": 1,
+      "I_ID": 1,
+      "G_ID": 1
+    },
+    {
+      "ID": 2,
+      "UserID": "0005605224",
+      "FullName": "Selman Emre Erol",
+      "Department": "IT",
+      "IsOfficeEmployee": "1",
+      "Gender": "Male",
+      "D_ID": 1,
+      "I_ID": 1,
+      "G_ID": 1
+    },
+    {
+      "ID": 3,
+      "UserID": "0005358069",
+      "FullName": "Atalay Beyazıt",
+      "Department": "IT",
+      "IsOfficeEmployee": "1",
+      "Gender": "Male",
+      "D_ID": 1,
+      "I_ID": 1,
+      "G_ID": 1
+    },
+    {
+      "ID": 4,
+      "UserID": "0005733290",
+      "FullName": "Ceren Sezmen",
+      "Department": "CR",
+      "IsOfficeEmployee": "1",
+      "Gender": "Female",
+      "D_ID": 2,
+      "I_ID": 1,
+      "G_ID": 2
+    },
+    {
+      "ID": 5,
+      "UserID": "0005573272",
+      "FullName": "Sude Uysal",
+      "Department": "IT",
+      "IsOfficeEmployee": "1",
+      "Gender": "Female",
+      "D_ID": 1,
+      "I_ID": 1,
+      "G_ID": 1
+    }
+  ],
+  "Events": [
+    {
+      "EventID": 1,
+      "EventName": "İnovasyon Odaklı Kültür Geliştirme Eğitimi Programı",
+      "EventType": "Eğitim",
+      "Location": "Toplantı Salonu",
+      "EventDateTime": "24.06.2024/09.00",
+      "Status": "Null"
+    },
+    {
+      "EventID": 2,
+      "EventName": "Orientation for Interns",
+      "EventType": "Toplantı",
+      "Location": "Toplantı Salonu",
+      "EventDateTime": "25.06.2024/09.00",
+      "Status": "Null"
+    },
+    {
+      "EventID": 3,
+      "EventName": "Yaza Merhaba Partisi",
+      "EventType": "Parti",
+      "Location": "Bahçe",
+      "EventDateTime": "12.07.2024/09.00",
+      "Status": "Null"
+    },
+    {
+      "id": "82e0",
+      "EventName": "Dünya Kadınlar Günü Kutlaması",
+      "EventType": "Parti",
+      "Location": "Bahçe",
+      "EventDateTime": "08.03.2025/13.00"
+    }
+  ],
+  "Events_Users": [
+    {
+      "ID": 1,
+      "EventID": 1,
+      "UserID": 1
+    },
+    {
+      "ID": 2,
+      "EventID": 1,
+      "UserID": 2
+    },
+    {
+      "ID": 3,
+      "EventID": 1,
+      "UserID": 3
+    },
+    {
+      "ID": 4,
+      "EventID": 2,
+      "UserID": 2
+    },
+    {
+      "id": "8c9a",
+      "EventID": "2",
+      "UserID": 5
+    }
+  ],
+  "Event_Type": [
+    {
+      "T_ID": 1,
+      "Name": "Eğitim",
+      "id": "5582"
+    },
+    {
+      "T_ID": 2,
+      "Name": "Toplantı",
+      "id": "479f"
+    },
+    {
+      "T_ID": 3,
+      "Name": "Parti",
+      "id": "4e53"
+    }
+  ],
+  "Event_Location": [
+    {
+      "L_ID": 1,
+      "Name": "Toplantı Salonu",
+      "id": "06a8"
+    },
+    {
+      "L_ID": 2,
+      "Name": "Bahçe",
+      "id": "a891"
+    },
+    {
+      "L_ID": 3,
+      "Name": "İzmir",
+      "id": "e430"
+    }
+  ],
+  "User_Department": [
+    {
+      "D_ID": 1,
+      "Name": "IT",
+      "id": "6e8b"
+    },
+    {
+      "D_ID": 2,
+      "Name": "CR",
+      "id": "c693"
+    }
+  ],
+  "User_Gender": [
+    {
+      "G_ID": 1,
+      "Name": "Male",
+      "id": "06fc"
+    },
+    {
+      "G_ID": 2,
+      "Name": "Female",
+      "id": "6d49"
+    }
+  ],
+  "User_IsOfficeEmployee": [
+    {
+      "I_ID": 1,
+      "Name": "Office",
+      "id": "6d82"
+    },
+    {
+      "I_ID": 2,
+      "Name": "Field",
+      "id": "cb89"
+    }
+  ]
+}

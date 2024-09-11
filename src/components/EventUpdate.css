@@ -1,0 +1,60 @@
+.update-container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 100px; /* Konteyneri biraz daha aşağı kaydırmak için margin-top artırıldı */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  border: 1px solid rgb(80, 78, 78);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Logo ve başlığı ayırır */
+  align-items: center;
+  position: relative; /* Absolute'dan relative'e geçildi */
+  padding: 10px 20px;
+  margin-bottom: 20px; /* Konteynerden biraz boşluk bırakır */
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.save-button {
+  display: block;
+  width: auto; /* Buton genişliğini içeriğine göre ayarlar */
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px auto 0; /* Butonu ortalar ve yukarıdan boşluk bırakır */
+  text-align: center; /* Yazıyı ortalar */
+  border-radius: 5px; /* Yuvarlak köşeler ekler */
+}

@@ -1,0 +1,88 @@
+.add-new-event-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+}
+
+.add-new-event {
+  max-width: 600px;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.add-new-event h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.button-container{
+  display: flex;
+  justify-items:center ;
+  align-items: center;
+
+}
+.add-new-event-container .button-container button {
+  width: auto; /* Buton genişliğini içeriğine göre ayarlar */
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px auto 0; /* Butonu ortalar ve yukarıdan boşluk bırakır */
+  text-align: center; /* Yazıyı ortalar */
+  border-radius: 5px;
+}
+
+.add-new-event-container .button-container button:hover {
+  background-color: #0056b3;
+}

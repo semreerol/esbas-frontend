@@ -1,0 +1,60 @@
+/* Header kısmı için stiller */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa; /* Açık gri arka plan rengi */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    cursor: pointer;
+}
+
+h1 {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+}
+
+.export-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 5px;
+    padding:10px;
+}
+
+button:hover {
+    background-color: #c82333;
+}
+
+/* Body kısmı için stiller */
+.body-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px; /* Header'dan biraz boşluk bırakın */
+}
+
+.grid-container {
+    width: 100%; /* Tablonun genişliğini tam yapın */
+    height: 70vh; /* Yüksekliği ayarlayın */
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 55px;
+
+}
