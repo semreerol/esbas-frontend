@@ -167,7 +167,7 @@ function Plist() {
                     <img src={`${process.env.PUBLIC_URL}/logo-esbas.png`} className="logo" onClick={handleLoGoClick} />
                 </div>
                 
-                <button className='export-button' onClick={onExportClick}>Export to CSV</button>
+                <button className='export-button' onClick={onExportClick}>Excel'e Aktar</button>
             </header>
             
             <div className="body-content">
