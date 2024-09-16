@@ -63,6 +63,7 @@ const UpdateEvent = () => {
       navigate("/");
     } catch (error) {
       console.error('Error updating event:', error);
+      navigate("/");
     }
   };
 
